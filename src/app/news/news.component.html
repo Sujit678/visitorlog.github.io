@@ -1,0 +1,9 @@
+<div *ngIf="news?.length > 0">
+    <ul *ngFor="let new of news">
+        <li>id: {{new.id}}</li>
+        <li>title: {{new.title}}</li>
+        <li>author: {{new.author}}</li>
+        <li>image: {{new.image}}</li>
+        <li>description: {{new.description}}</li>
+    </ul>
+</div>
